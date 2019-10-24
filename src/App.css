@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  background-color: lightgrey;
+  flex-wrap: wrap;
+  flex: 0 0 29.3%;
+  margin: 2%;
+}
+
+.product p {
+  flex: 0 0 100%;
+  height: 50px;
+}
+
+.product img{
+  width: 100%;
+  height:400px;
+  object-fit: cover;
+}
+
+.cart {
+  display:flex;
+  width: 100%;
+}
+
+.product .money{
+  color: orange;
+  font-weight: bold;
+}
